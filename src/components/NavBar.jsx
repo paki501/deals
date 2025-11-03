@@ -4,30 +4,34 @@ import { Link } from 'react-router-dom'
 export default function NavBar() {
   return (
     <>
-    <nav className='bg-teal-400 py-6 '>
-        <div className='text-neutral-50 flex flex-between'>
-            <Link to="/" className='px-4 font-medium ml-20'>Deals</Link>
-            <Link to="/lastminute" className='px-4'>Last Mins Booking</Link>
-            <Link to="/reviews" className='px-4'>Reviews</Link>
-            <Link to="/contact" className='px-4'>Contact</Link>
-           
-             <img src="logo.svg" alt="" className='-mb-6 -mt-4 h-14 flex items-center ml-50'/>
-             <div className='px-10 py-1 bg-neutral-50 flex ml-160 rounded-4xl -mt-2 -mb-2 mr-10'>
-                <img src="male.svg" alt=""  className='flex justify-items-start -ml-4'/>
-                <p className='text-black ml-10 '>Mehrab Ansari <br/> Admin</p>
+    <nav className="bg-teal-400 py-4">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-4">
 
-             </div>
-
-            
+        {/* Left Links */}
+        <div className="flex flex-col md:flex-row gap-4 md:gap-6 text-white font-medium items-center">
+          <Link to="/" className="hover:text-neutral-200">Deals</Link>
+          <Link to="/lastminute" className="hover:text-neutral-200">Last Mins Booking</Link>
+          <Link to="/reviews" className="hover:text-neutral-200">Reviews</Link>
+          <Link to="/contact" className="hover:text-neutral-200">Contact</Link>
         </div>
 
-    </nav>
+        {/* Logo */}
+        <img 
+          src="logo.svg" 
+          alt="Logo"
+          className="h-14 my-3 md:my-0"
+        />
 
-   
-    
-    
-    
-    
+        {/* Admin Profile */}
+        <div className="flex items-center gap-2 bg-white text-black px-3 py-2 rounded-full shadow-sm mt-2 md:mt-0">
+          <img src="male.svg" alt="user" className="h-8 w-8" />
+          <p className="text-sm leading-4">
+            Mehrab Ansari <br/><span className="text-gray-500 text-xs">Admin</span>
+          </p>
+        </div>
+
+      </div>
+    </nav>
     </>
   )
 }
