@@ -23,6 +23,7 @@ export default function Contact() {
         <h2 className="text-2xl font-bold text-center text-black">Contact Us</h2>
         <p className="text-center text-gray-600 mt-2 mb-4">
           Feel free to contact us and we will get back to you as soon as we can.
+          <br/>
           Feel free to contact us and we will get back to you as soon as we can.
         </p>
 
