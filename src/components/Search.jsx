@@ -15,8 +15,10 @@ export default function Search() {
     </div>
 
     <div className='px-20 rounded-4xl ml-100 bg-teal-300  flex items-center'>
-        Create New Deal
-        
+        Create New Deal 
+    </div>
+    <div className='px-20 rounded-4xl ml-100 bg-teal-300  flex items-center'>
+        Create New Deal 122
     </div>
 
     </div>
