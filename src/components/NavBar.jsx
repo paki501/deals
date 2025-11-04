@@ -15,6 +15,7 @@ export default function NavBar() {
              <div className='px-10 py-1 bg-neutral-500 flex ml-160 rounded-4xl -mt-2 -mb-2 mr-10'>
                 <img src="male.svg" alt=""  className='flex justify-items-start -ml-4'/>
                 <p className='text-black ml-10 '>Mehrab Ansari <br/> Admin</p>
+                <h1>suifjsoifj</h1>
 
              </div>
 
