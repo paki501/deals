@@ -59,6 +59,7 @@ export default function Contact() {
                 className="px-6 py-3 bg-cyan-400 hover:bg-cyan-500 text-white font-semibold rounded-full transition w-full md:w-auto"
               >
                 SUBMIT NOW
+                SUBMIT NOW
               </button>
             </div>
           </form>
