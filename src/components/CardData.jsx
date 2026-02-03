@@ -9,6 +9,7 @@ const dummyCards = [
     time: '08:00 – 08:30 PM',
     price: '$50.00',
     image: 'room.svg',
+    expire:'2d',
   },
   {
     title: 'Dental Clinic',
@@ -16,6 +17,7 @@ const dummyCards = [
     time: '08:00 – 08:30 AM',
     price: '$50.00',
     image: 'room.svg',
+    expire:'2d',
   },
   {
     title: 'Dental Clinic',
@@ -23,8 +25,8 @@ const dummyCards = [
     time: '08:00 – 08:30 AM',
     price: '$50.00',
     image: 'room.svg',
+    expire:'2d',
 
-
   },
   {
     title: 'Dental Clinic',
@@ -32,6 +34,7 @@ const dummyCards = [
     time: '08:00 – 08:30 AM',
     price: '$50.00',
     image: 'room.svg',
+    expire:'2d',
   },
   {
     title: 'Dental Clinic',
@@ -39,6 +42,7 @@ const dummyCards = [
     time: '08:00 – 08:30 AM',
     price: '$50.00',
     image: 'room.svg',
+    expire:'2d',
   },
 ];
 
